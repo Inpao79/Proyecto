@@ -7,7 +7,7 @@ La función chatbot (query) es un asistente que busca libros según palabras cla
 LA función get_movies_by_category (cagory) ayuda a encontrar películas segun su género (acción, comedia, etc.)
 """
 
-# Importamos las herraniebtas necesarias para construir nuestra API
+# Importamos las herranientas necesarias para construir nuestra API
 from fastapi import FastAPI, HTTPException # FastAPI nos ayuda a crear la API, HTTPException maneja errores en la API
 from fastapi.responses import HTMLResponse, JSONResponse #HTMLResponse maneja respuestas en paginas web, JSONResponse maneja respuestas en formato JSON 
 import pandas as pd #pandas nos ayuda a trabajar con datos como sifyeran tabla en excel
